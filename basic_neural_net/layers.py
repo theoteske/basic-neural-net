@@ -1,7 +1,7 @@
 """Implementations for the different kind of layers used to build neural networks."""
 
 import numpy as np
-import activations
+from . import activations
 
 class InputLayer:
     """Layer that handles network input with specified shape."""

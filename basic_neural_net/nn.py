@@ -2,7 +2,7 @@
 
 import numpy as np
 from scipy.special import softmax
-import losses
+from . import losses
 
 class Sequential:
     """Sequential container for neural network layers."""

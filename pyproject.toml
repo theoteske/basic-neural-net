@@ -23,7 +23,8 @@ examples = [
 ]
 
 [tool.setuptools]
-package-dir = {"" = "basic_neural_net"}
+package-dir = {"" = "."}
 
 [tool.setuptools.packages.find]
-where = ["basic_neural_net"]
+where = ["."]
+include = ["basic_neural_net*", "examples*"]
