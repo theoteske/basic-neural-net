@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![NumPy](https://img.shields.io/badge/NumPy-1.19%2B-brightgreen.svg)](https://numpy.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/neural-net)](https://github.com/yourusername/neural-net/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/theoteske/basic-neural-net)](https://github.com/theoteske/basic-neural-net/commits/main)
 
 A NumPy-based neural network implementation built from scratch for educational purposes. This project implements core deep learning components including various layer types, activation functions, loss functions, and optimizers.
 
