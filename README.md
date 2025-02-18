@@ -1,4 +1,4 @@
-# Basic Neural NetL A Neural Network Implementation from Scratch
+# Basic Neural Net: A Neural Network Implementation from Scratch
 
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -65,13 +65,13 @@ See the `examples` directory for more detailed usage examples, including MNIST d
 ## Project Structure
 
 ```
-neural-net/
-├── src/                  # Source code
+basic-neural-net/
+├── basic_neural_net/     # Source code
 │   ├── activations.py    # Activation functions
 │   ├── layers.py         # Layer implementations
 │   ├── losses.py         # Loss functions
 │   ├── optimizers.py     # Optimization algorithms
-│   └── sequential.py     # Sequential model API
+│   └── nn.py             # Sequential model API
 ├── examples/             # Example notebooks
 │   └── mnist_example.ipynb
 └── requirements.txt      # Project dependencies
