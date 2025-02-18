@@ -21,8 +21,8 @@ A NumPy-based neural network implementation built from scratch for educational p
 Clone the repository and install the package:
 
 ```bash
-git clone https://github.com/yourusername/neural-net.git
-cd neural-net
+git clone https://github.com/theoteske/basic-neural-net.git
+cd basic-neural-net
 pip install -e .
 ```
 
@@ -37,8 +37,8 @@ pip install -e ".[examples]"
 Basic example of creating and training a model:
 
 ```python
-from neural_net import Sequential
-from neural_net import layers, activations, losses, optimizers
+from basic-neural-net import Sequential
+from basic-neural-net import layers, activations, losses, optimizers
 
 # Create model
 model = Sequential()
