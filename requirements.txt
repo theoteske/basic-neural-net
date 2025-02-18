@@ -1,0 +1,7 @@
+numpy>=1.19.0
+scipy>=1.7.0
+
+# for examples
+tensorflow
+matplotlib
+jupyter # for running notebooks

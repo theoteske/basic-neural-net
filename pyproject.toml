@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "basic-neural-net"
+version = "0.1.0"
+description = "A NumPy-based neural network implementation built from scratch."
+readme = "README.md"
+authors = [{name = "Theo Teske"}]
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+    "scipy",
+]
+
+[project.optional-dependencies]
+examples = [
+    "tensorflow",
+    "matplotlib",
+    "jupyter",
+]
+
+[tool.setuptools]
+package-dir = {"" = "basic_neural_net"}
+
+[tool.setuptools.packages.find]
+where = ["basic_neural_net"]
