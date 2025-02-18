@@ -37,8 +37,8 @@ pip install -e ".[examples]"
 Basic example of creating and training a model:
 
 ```python
-from basic-neural-net import Sequential
-from basic-neural-net import layers, activations, losses, optimizers
+from basic_neural_net import Sequential
+from basic_neural_net import layers, activations, losses, optimizers
 
 # Create model
 model = Sequential()
